@@ -5,7 +5,7 @@ using namespace std;
 
 Triangle::Triangle(float width, float height) : Shape(width, height) {}
 
-double Triangle::getArea()
+float Triangle::getArea()
 {
-	return (0.5 * Width * Height);
+	return (0.5f * Width * Height);
 }
