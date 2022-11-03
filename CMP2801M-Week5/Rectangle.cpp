@@ -3,11 +3,7 @@
 
 using namespace std;
 
-Rectangle::Rectangle(float width, float height)
-{
-	Width = width;
-	Height = height;
-}
+Rectangle::Rectangle(float width, float height) : Shape(width, height) {}
 
 float Rectangle::getArea()
 {

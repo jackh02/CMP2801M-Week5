@@ -4,12 +4,8 @@
 
 using namespace std;
 
-Shape::Shape()
+Shape::Shape(float width, float height)
 {
-	area = 0;
+	Width = width;
+	Height = height;
 };
-
-float Shape::getArea()
-{
-	return area;
-}

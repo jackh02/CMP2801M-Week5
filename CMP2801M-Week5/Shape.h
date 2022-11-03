@@ -3,9 +3,7 @@
 class Shape
 {
 	public:
-		Shape();
-		float getArea();
-
-	private:
-		float area;
+		Shape(float width, float height);
+		float Width;
+		float Height;
 };

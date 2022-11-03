@@ -7,8 +7,27 @@ using namespace std;
 
 int main()
 {
-    Triangle triangle(4, 5);
-    Rectangle rectangle(4, 5);
+    float triangleWidth, triangleHeight;
+    float rectangleWidth, rectangleHeight;
+
+    cout << "Triangle width (base): ";
+    cin >> triangleWidth;
+
+    cout << "Triangle height: ";
+    cin >> triangleHeight;
+
+    cout <<endl;
+
+    cout << "Rectangle width: ";
+    cin >> rectangleWidth;
+
+    cout << "Rectangle height: ";
+    cin >> rectangleHeight;
+
+    cout << endl;
+
+    Triangle triangle(triangleWidth, triangleHeight);
+    Rectangle rectangle(rectangleWidth, rectangleHeight);
 
     cout << "Triangle area: " << triangle.getArea() << endl;
     cout << "Rectangle area: " << rectangle.getArea() << endl;

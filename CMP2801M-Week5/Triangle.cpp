@@ -3,13 +3,9 @@
 
 using namespace std;
 
-Triangle::Triangle(float width, float height)
-{
-	Width = width;
-	Height = height;
-}
+Triangle::Triangle(float width, float height) : Shape(width, height) {}
 
-float Triangle::getArea()
+double Triangle::getArea()
 {
 	return (0.5 * Width * Height);
 }
