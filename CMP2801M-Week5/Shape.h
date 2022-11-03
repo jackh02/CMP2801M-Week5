@@ -1,5 +1,3 @@
-#define SHAPE_H
-
 class Shape
 {
 	public:

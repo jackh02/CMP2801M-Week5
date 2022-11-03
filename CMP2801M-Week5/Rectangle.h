@@ -1,5 +1,3 @@
-#define RECTANGLE_H
-
 class Rectangle : public Shape
 {
 	public:

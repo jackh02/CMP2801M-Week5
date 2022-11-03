@@ -1,5 +1,3 @@
-#define TRIANGLE_H
-
 class Triangle : public Shape
 {
 	public:
